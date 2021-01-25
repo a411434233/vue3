@@ -6,7 +6,7 @@ const app  = createApp(App);
 
 
 app.config.globalProperties.$http = function (){
-    console.log(2)
+    console.log(3)
 }
 
 app.use(store).use(router).mount('#app')
